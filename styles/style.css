@@ -1,0 +1,158 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+    background: linear-gradient(#0FC7E0, #000000, #177998, #1799B6);
+}
+
+header{
+    width: 100%;
+    height: 58px;
+    background: #323232;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 300px;
+}
+
+.nav_menu{
+    margin-right: 300px;
+    list-style: none;
+    display: flex;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.subheader{
+    display: flex;
+    justify-content: end;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.content{
+    display: block;
+    margin-left: 200px;
+}
+
+.content_title{
+    font-size: 32px;
+
+}
+
+.covibe{
+    list-style: none;
+    display: inline-flex;
+    margin-left: -57px;
+}
+
+.covibe_item{
+    font-size: 20px;
+    color: #181818;
+    margin-left: 20px;
+}
+.product{
+    position: absolute;
+    list-style: none;
+    display: inline-flex;
+    margin-left: -569px;
+    margin-top: 60px;
+}
+.product_item{
+    font-size: 20px;
+    color: #000000;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.month_img{
+    display: flex;
+    justify-content: end;
+    margin-right: 200px;
+}
+
+.month_img_text{
+    position: relative;
+    top: 250px;
+    right:  300px;
+    color: #5F77F1;
+    font-size: 16px;
+}
+
+.month_img_text2{
+    position: relative;
+    top: 310px;
+    right:  380px;
+    color: WHITE;
+    font-size: 16px;
+}
+
+.prototy_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+figcaption{
+    position: relative;
+    text-align: center;
+    color: #6D09ED;
+    top: -60px;
+}
+
+.prototy_img_text{
+    display: flex;
+    justify-content: center;
+    color: #1D0101;
+}
+
+.prostoty_img_text2{
+    display: flex;
+    justify-content: center;
+ 
+
+    font-size: 32px;
+
+    color:#0a0000;
+    font-weight: bold;
+}
+.image_content{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.title_cont{
+    margin-top: 200px;
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.grid_content{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    width: 1343px;
+    display: grid;
+    grid-template-columns: auto;
+  
+    padding: 10px;
+  }
+  .grid-item {
+    color: #752DAD;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
